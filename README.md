@@ -6,11 +6,17 @@ Editing this file updates the model picker and API behavior.
 ## Updating models
 
 If you wish to request a change to the model list, follow these steps:
+
 1. Fork this repo
-2. Edit model-list.json with the requested changes
+2. Edit model-list.json with the requested changes (make sure you read the schema!)
 3. Create a PR (pull request) and describe your changes
 
 A maintainer (likely me!) will review your PR soon and choose whether to merge it or not! If merged, the model list automatically updates and all instances of Libre-Assistant along with it.
+
+### NOTES
+- If you are adding a model from a provider that does not yet exist in the model list, please add the provider yourself and place a black-and-white svg logo of the provider (from lobehub.com) into /logos/.
+- Providers should always be shown in alphabetical order
+- Models will be listed mostly by version (newer versions at the top, older versions at the bottom) and in order of strength/power/scale when there are more than one model of the same version (i.e. Claude Opus 4 would be above Claude Sonnet 4, but Claude Sonnet 4.5 would be above Claude Opus 4).
 
 ## Schema
 
@@ -78,3 +84,4 @@ node -e "JSON.parse(require('fs').readFileSync('models.json'))"
 
 # Or with jq
 jq empty models.json
+```
