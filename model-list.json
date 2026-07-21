@@ -1,6 +1,5 @@
 {
   "version": 1,
-  "updated": "2026-07-21",
   "defaultModelId": "moonshotai/kimi-k2.6",
   "schema": {
     "reasoning": {
@@ -34,7 +33,7 @@
   "categories": [
     {
       "category": "Anthropic",
-      "logo": "/ai_logos/anthropic.svg",
+      "logo": "/logos/anthropic.svg",
       "models": [
         {
           "id": "anthropic/claude-fable-5",
@@ -128,7 +127,7 @@
     },
     {
       "category": "DeepSeek",
-      "logo": "/ai_logos/deepseek.svg",
+      "logo": "/logos/deepseek.svg",
       "models": [
         {
           "id": "deepseek/deepseek-v4-pro",
@@ -181,7 +180,7 @@
     },
     {
       "category": "Google",
-      "logo": "/ai_logos/gemini.svg",
+      "logo": "/logos/gemini.svg",
       "models": [
         {
           "id": "google/gemini-3.5-flash",
@@ -263,7 +262,7 @@
     },
     {
       "category": "Liquid AI",
-      "logo": "/ai_logos/liquid.svg",
+      "logo": "/logos/liquid.svg",
       "models": [
         {
           "id": "liquid/lfm-2-24b-a2b",
@@ -279,7 +278,7 @@
     },
     {
       "category": "Moonshot AI",
-      "logo": "/ai_logos/moonshot.svg",
+      "logo": "/logos/moonshot.svg",
       "models": [
         {
           "id": "moonshotai/kimi-k3",
@@ -341,7 +340,7 @@
     },
     {
       "category": "MiniMax",
-      "logo": "/ai_logos/minimax.svg",
+      "logo": "/logos/minimax.svg",
       "models": [
         {
           "id": "minimax/minimax-m3",
@@ -366,7 +365,7 @@
     },
     {
       "category": "Mistral",
-      "logo": "/ai_logos/mistral.svg",
+      "logo": "/logos/mistral.svg",
       "models": [
         {
           "id": "mistralai/mistral-medium-3-5",
@@ -392,7 +391,7 @@
     },
     {
       "category": "OpenAI",
-      "logo": "/ai_logos/openai.svg",
+      "logo": "/logos/openai.svg",
       "models": [
         {
           "id": "openai/gpt-5.6-sol",
@@ -472,7 +471,7 @@
     },
     {
       "category": "Perplexity",
-      "logo": "/ai_logos/perplexity.svg",
+      "logo": "/logos/perplexity.svg",
       "models": [
         {
           "id": "perplexity/sonar-deep-research",
@@ -489,7 +488,7 @@
     },
     {
       "category": "Qwen",
-      "logo": "/ai_logos/qwen.svg",
+      "logo": "/logos/qwen.svg",
       "models": [
         {
           "id": "qwen/qwen3.7-plus",
@@ -524,7 +523,7 @@
     },
     {
       "category": "Z.ai",
-      "logo": "/ai_logos/zai.svg",
+      "logo": "/logos/zai.svg",
       "models": [
         {
           "id": "z-ai/glm-5.2",
