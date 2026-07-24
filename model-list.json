@@ -38,7 +38,21 @@
         {
           "id": "anthropic/claude-fable-5",
           "name": "Claude Fable 5",
-          "description": "State-of-the-art Anthropic Sonnet model for compelx reasoning and agentic tasks.",
+          "description": "State-of-the-art Anthropic model for compelex reasoning and agentic tasks.",
+          "reasoning": {
+            "supported": true,
+            "toggleable": false,
+            "effort": {
+              "levels": ["low", "medium", "high", "xhigh"],
+              "default": "low"
+            }
+          },
+          "vision": true
+        },
+        {
+          "id": "anthropic/claude-opus-5",
+          "name": "Claude Opus 5",
+          "description": "SOTA Anthropic Opus model for complex agentic tasks.",
           "reasoning": {
             "supported": true,
             "toggleable": true,
