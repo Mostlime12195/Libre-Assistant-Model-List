@@ -301,7 +301,11 @@
           "vision": true,
           "reasoning": {
             "supported": true,
-            "toggleable": false
+            "toggleable": false,
+            "effort": {
+              "levels": ["low", "high", "max"],
+              "default": "high"
+            }
           }
         },
         {
